@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Text;
+
+namespace Ein.DTOS
+{
+    public class GrupoSetDto
+    {
+        [Required] public int IdGeneracion { get; set; }
+        [Required, StringLength(12)] public string Nombre { get; set; } = string.Empty;
+    }
+    public class GrupoGetDto
+    {
+        [Key] public int Id { get; set; }
+        [Required] public int IdGeneracion { get; set; }
+
+        public string NombreGeneracion { get; set; }
+        [Required, StringLength(12)] public string Nombre { get; set; } = string.Empty;
+    }
+}

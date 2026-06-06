@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Practica 2.API/Practica 2.API.csproj" Id="acfe9724-eb23-454d-9112-ac9995619f76" />
+  <Project Path="Practica 2.Core/Practica 2.Core.csproj" />
+  <Project Path="Practica 2.DATA/Practica 2.DATA.csproj" />
+</Solution>
